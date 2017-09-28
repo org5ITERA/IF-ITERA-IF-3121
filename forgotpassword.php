@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head><title> Lupa Password </title>
-	 <link rel="stylesheet" href="style2.css">
+	 <link rel="stylesheet" href="css/style2.css">
 </head>
 	<body>
 		  <div id="Lupa">

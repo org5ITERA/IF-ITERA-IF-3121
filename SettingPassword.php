@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <head><title> Setting Password </title>
-	 <link rel="stylesheet" href="StyleSpass.css">
+	 <link rel="stylesheet" href="css/StyleSpass.css">
 
 </head>
 	<body>
         <div class="kotakkecil">
         Questions & Answers
         </div>
-		<img src="11.png">
+		<img src="img/11.png">
 		  <div id="SettingPassword">
         <h3>Setting Password</h3>
         <fieldset>

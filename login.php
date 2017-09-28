@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <head><title> Questions & Answer </title>
-	 <link rel="stylesheet" href="StyleLogin.css">
-	 
-</head>   
+	 <link rel="stylesheet" href="css/StyleLogin.css">
+
+</head>
 	<body>
 		<div class="kotakkecil">
 		Questions & Answers
 		</div>
-		<img src="11.png">
+		<img src="img/11.png">
 		  <div id="login">
         <h3>Masuk</h3>
         <fieldset>

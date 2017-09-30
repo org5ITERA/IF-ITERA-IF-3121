@@ -1,7 +1,6 @@
 <?php 
 include("functions/functions.php");
 ?>
-
 <!DOCTYPE html>
 <head><title> Questions & Answer </title>
 	 <link rel="stylesheet" href="css/StyleLogin.css">

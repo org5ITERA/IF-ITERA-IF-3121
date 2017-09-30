@@ -1,3 +1,7 @@
+<?php 
+include("functions/functions.php");
+?>
+
 <!DOCTYPE html>
 <head><title> Questions & Answer </title>
 	 <link rel="stylesheet" href="css/StyleLogin.css">
@@ -14,7 +18,7 @@
             <form action="" method="post">
                 <input type="text" name="username" placeholder="Email">
                 <input type="password" name="password" placeholder="Kata Sandi">
-                <input type="submit" name="submit" value="Masuk">
+                <input type="submit" name="login" value="login">
 						</form>
 						<a href="ForgotPassword.php"><button>Lupa Password</button></a>
             <div class="border-p"></div>
@@ -23,6 +27,9 @@
 
         </fieldset>
     </div>
+    <?php 
+    login();
+    ?>
 	</body>
 
 </html>

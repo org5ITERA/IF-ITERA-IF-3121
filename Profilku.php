@@ -3,7 +3,10 @@
      <link rel="stylesheet" href="css/style3.css">
 </head>
     <body>
-
+    	<div class="kotakkecil">
+    		Questions & Answers
+      </div>
+      <img src="img/11.png">
           <div id="Profil">
         <h3>Profil Ku</h3>
         <fieldset>

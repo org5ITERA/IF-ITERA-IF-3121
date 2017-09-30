@@ -3,6 +3,10 @@
 	 <link rel="stylesheet" href="css/style.css">
 </head>
 	<body>
+		<div class="kotakkecil">
+		Questions & Answers
+		</div>
+		<img src="img/11.png">
 		  <div id="Akun">
         <h3>Buat Akun</h3>
         <fieldset>

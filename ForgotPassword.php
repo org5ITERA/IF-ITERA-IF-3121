@@ -3,6 +3,10 @@
 	 <link rel="stylesheet" href="css/style2.css">
 </head>
 	<body>
+		<div class="kotakkecil">
+		Questions & Answers
+		</div>
+		<img src="img/11.png">
 		  <div id="Lupa">
         <h3>Lupa Password</h3>
         <fieldset>

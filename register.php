@@ -1,5 +1,9 @@
+<?php 
+include("functions/functions.php");
+?>
 <!DOCTYPE html>
 <head><title> Daftar Akun </title>
+<<<<<<< HEAD:buat akun.html
 <<<<<<< Updated upstream:buat akun.html
 	 <link rel="stylesheet" href="style.css">
 =======
@@ -10,13 +14,22 @@
     <script type="text/javascript" src="js/jeasyui/jquery.min.js"></script>
     <script type="text/javascript" src="js/jeasyui/jquery.easyui.min.js"></script>
 >>>>>>> Stashed changes:register.php
+=======
+	 <link rel="stylesheet" href="css/style.css">
+>>>>>>> master:register.php
 </head>
 	<body>
+		<div class="kotakkecil">
+		Questions & Answers
+		</div>
+		<img src="img/11.png">
 		  <div id="Akun">
         <h3>Buat Akun</h3>
         <fieldset>
-            <form action="">
+            <form action="" method="post">
+
                 <input type="text" name="username" placeholder="Nama Lengkap">
+<<<<<<< HEAD:buat akun.html
 <<<<<<< Updated upstream:buat akun.html
                 <input type="text" name="Email/Telepon" placeholder="Email/Telepon">
                 <input type="text" name="Tanggal Lahir" placeholder="Tanggal Lahir">
@@ -27,15 +40,22 @@
             <input class="easyui-datebox" label="Tanggal Lahir:" name="TanggalLahir" labelPosition="top" style="width:50%;">
         </div>
 >>>>>>> Stashed changes:register.php
+=======
+                <input type="text" name="Email" placeholder="Email">
+                <input type="text" name="TanggalLahir" placeholder="Tanggal Lahir">
+>>>>>>> master:register.php
                 <h4>Jenis Kelamin </h4>
                 <form method="post" action="#">
                 <input type="radio" name="jk" value="Laki"/>Laki-laki<br/>
                 <input type="radio" name="jk" value="Perempuan"/>Perempuan<br/>
                 <input type="Password" name="Password" placeholder="Password">
-                <input type="submit" name="submit" value="Daftar" >
+                <input type="submit" name="register" value="register" >
             </form>
         </fieldset>
     </div>
+    <?php
+    register();
+     ?>
 	</body>
 
 </html>

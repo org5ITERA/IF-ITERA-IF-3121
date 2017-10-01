@@ -2,27 +2,34 @@ body{
     margin: 0;
     padding: 0;
     background: pink;
-
 }
 body img{
     margin-top: 100px;
     margin-left: 200px;
 }
+form img{
+    margin-right: 300px;
+    margin-left: 0px;
+    width: 100px;
+    margin-top: 100px;
+}
+
 .kotakkecil{
     background: grey;
     font-size: 30px;margin: 0px;
     padding: 15px;
-    border: solid 1px #eceff5; 
-    line-height: 50px; color: white; 
-}
-#ResetPassword{
-    margin-top: -450px;
-    max-width: 400px;
+    border: solid 1px #eceff5;
+    line-height: 50px; color: white;
+    margin-top: 0
+  }
+#Akun{
+    max-width: 525px;
     background: #f9f9f9;
     box-shadow: 0 0 10px #aaa;
-    margin-left: 900px;
+    margin-left: 800px;
+    margin-top: -500px;
 }
-#ResetPassword h3{
+#Akun h3{
     text-align: center;
     padding: 25px 10px;
     background-color: #2b2f3e;
@@ -36,16 +43,17 @@ form{
     padding: 0;
     margin: 0;
     padding: 15px;
+    background-image: url("12.png");
 }
-input[type='password'],
-input[type="Masukkan Password Ulang"]{
-    width: 90%;
-    padding: 10px;
-    margin-top: 10px;
+input[type='text'],
+input[type="password"]{
+    width: 50%;
+    padding: 1em;
+    margin-top: 1.2em;
     color: #888;
 }
 input[type="submit"]{
-    width: 100%;
+    width: 52%;
     padding: 1.4em;
     margin: 1.5em 0;
     color: #888;
@@ -53,21 +61,23 @@ input[type="submit"]{
     border:none;
     color:#eee;
     border-bottom: 4px solid transparent;
+
 }
 input[type="submit"]:hover{
     opacity: 0.8;
     border-color: #00adb1;
 }
-form p{
-    text-align: center;
-    color: #888;
-    width: 150px;
-    margin: 10px auto 0;
-    background: #f9f9f9;
-    position: relative;
-    bottom: 20px;
+button{
+    background-color: #3b5998;
+    width: 100%;
+    padding: 1.4em;
+    margin-bottom: 1em;
+    color: #888; ;
+    border:none;
+    color:#eee;
+    border-bottom: 4px solid transparent;
 }
-.border-p{
-    border-top: 1px solid #888;
-    margin: 10px 10px;
+button:hover{
+    opacity: 0.9;
+    border-color: #3b3998;
 }

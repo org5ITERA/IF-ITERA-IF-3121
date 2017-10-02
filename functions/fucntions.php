@@ -26,10 +26,18 @@ function login(){
 
   }
 }
+<<<<<<< Updated upstream
 function index(){
   $data['User']= $this->Tugas-Besar->get_user()->result();
   $this->load->view->('register',$data);
 }
+=======
+
+function index(){
+  $data['User'] = $this->Tugas-Besar->get_data()->result();
+}
+
+>>>>>>> Stashed changes
 function account_register() {
 
 }
@@ -37,6 +45,7 @@ function add_data(){
   $this->load->view('register');
 }
 function add_account(){
+<<<<<<< Updated upstream
 	global $db;
 	$password = $this->input->post('password');
 	$username = $this->input->post('username');
@@ -45,5 +54,8 @@ function add_account(){
 		'password' => md5(A$password)
 	);
 	
+=======
+  $this->load->model('Tugas-Besar');
+>>>>>>> Stashed changes
 
 }

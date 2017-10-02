@@ -1,4 +1,3 @@
-<?php
 $db = mysqli_connect("localhost", "root","","Tugas-Besar");
 
 function login(){
@@ -27,5 +26,5 @@ function add(){
   $this->load->view('register');
 }
 function add_account(){
-  
+
 }

@@ -1,9 +1,9 @@
 <?php
-$db = mysqli_connect("localhost", "root","","Tugas-Besar");
+$db = mysqli_connect("localhost", "root","","belajar_ci");
 
 function __construct(){
 		parent::__construct();
-		$this->load->model('Tugas-Besar');
+		$this->load->model('belajar_ci');
 		$this->load->helper('url');
 
 }
@@ -30,11 +30,6 @@ function index(){
   $data['User']= $this->Tugas-Besar->get_user()->result();
   $this->load->view->('register',$data);
 }
-
-function index(){
-  $data['User'] = $this->Tugas-Besar->get_data()->result();
-}
-
 function account_register() {
 
 }
@@ -42,5 +37,13 @@ function add_data(){
   $this->load->view('register');
 }
 function add_account(){
-  
+	global $db;
+	$password = $this->input->post('password');
+	$username = $this->input->post('username');
+	$where = array(
+		'username' => $username,
+		'password' => md5(A$password)
+	);
+	
+
 }

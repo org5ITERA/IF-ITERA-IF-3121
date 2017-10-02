@@ -31,14 +31,16 @@ function index(){
   $this->load->view->('register',$data);
 }
 
+function index(){
+  $data['User'] = $this->Tugas-Besar->get_data()->result();
+}
+
 function account_register() {
 
 }
-function add(){
+function add_data(){
   $this->load->view('register');
 }
 function add_account(){
-  $username = $this->input->post('Email/Telepon');
-  $password = $this->input->post('Password');
-
+  
 }

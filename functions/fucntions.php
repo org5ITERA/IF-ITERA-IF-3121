@@ -1,4 +1,12 @@
+<?php
 $db = mysqli_connect("localhost", "root","","Tugas-Besar");
+
+function __construct(){
+		parent::__construct();
+		$this->load->model('Tugas-Besar');
+		$this->load->helper('url');
+
+}
 
 function login(){
 
@@ -18,6 +26,10 @@ function login(){
 
   }
 }
+function index(){
+  $data['User']= $this->Tugas-Besar->get_user()->result();
+  $this->load->view->('register',$data);
+}
 
 function account_register() {
 
@@ -26,5 +38,7 @@ function add(){
   $this->load->view('register');
 }
 function add_account(){
+  $username = $this->input->post('Email/Telepon');
+  $password = $this->input->post('Password');
 
 }

@@ -10,11 +10,11 @@ include("functions/functions.php");
 
 </head>
 	<body>
-		<div id="kotakkecil">
-		<a href="home.php">Questions & Answers</a>
-		</div>
-    <div class="content_wrapper">
 
+    <div class="content_wrapper">
+			<div id="kotakkecil">
+			<a href="home.php">Questions & Answers</a>
+			</div>
 
     <div id="sidebar">
       <div id="sidebar_title">

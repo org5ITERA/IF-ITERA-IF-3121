@@ -1,8 +1,8 @@
-<?php  
+<?php
 $db = mysqli_connect("localhost", "root","","Tugas-Besar");
 
 function login(){
-	
+
 	if (isset($_POST['login'])){
 
 		global $db;
@@ -14,9 +14,10 @@ function login(){
 		if ($cek_user==0) {
 			echo "<script> alert('Username atau password SALAH') </script>";
 		} else {
+			$_SESSION['username']=$username;
 			echo "<script> window.open('main.php','_self') </script>";
 		}
-		
+
 	}
 }
 function register(){
@@ -44,7 +45,7 @@ function register(){
 			echo "<script> window.open('login.php','_self') </script>";
 		}
 
-	
+
 
 }
 

@@ -14,6 +14,7 @@ function login(){
 		if ($cek_user==0) {
 			echo "<script> alert('Username atau password SALAH') </script>";
 		} else {
+			$_SESSION['username']=$username;
 			echo "<script> window.open('my_account.php','_self') </script>";
 		}
 

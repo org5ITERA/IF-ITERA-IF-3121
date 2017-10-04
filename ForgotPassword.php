@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head><title> Lupa Password </title>
 	 <link rel="stylesheet" href="css/style2.css">
+	 <link rel='shortcut icon' type='image/png' href='img/logo.png'/>
 </head>
 	<body>
 		<div class="kotakkecil">

@@ -44,6 +44,9 @@ include("functions/functions.php");
 								<div style="margin-bottom:20px; margin-top: 0px;">
             			<input class="easyui-textbox" type="text" label="Nama Lengkap:" name="nama" labelPosition="top" style="width:50%;" required/>
         				</div>
+								<div style="margin-bottom:20px; margin-top: 0px;">
+            			<input class="easyui-textbox" type="text" label="Username:" name="username" labelPosition="top" style="width:50%;" required/>
+        				</div>
 								<div style="margin-bottom:20px; margin-top: 20px;">
             			<input class="easyui-textbox" type="text" label="Email:" name="email" labelPosition="top" data-options="prompt:'Masukkan email aktif anda...',validType:'email'" style="width:50%;" required/>
         				</div>
@@ -51,8 +54,7 @@ include("functions/functions.php");
             			<input class="easyui-datebox" label="Tanggal Lahir:" name="tanggallahir" labelPosition="top" data-options="formatter:myformatter,parser:myparser" style="width:50%;">
         				</div>
                 <h4>Jenis Kelamin </h4>
-                <form method="post" action="#">
-                <input type="radio" name="jk" value="Laki"/>Laki-laki<br/>
+                <input type="radio" name="jk" value="Laki-laki"/>Laki-laki<br/>
                 <input type="radio" name="jk" value="Perempuan"/>Perempuan<br/>
 								<div style="margin-bottom:20px; margin-top: 20px;">
             			<input class="easyui-passwordbox" label="Password:" name="password" labelPosition="top" style="width:50%;" required/>

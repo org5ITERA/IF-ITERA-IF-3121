@@ -64,9 +64,8 @@ while ($row_user=mysqli_fetch_array($run_sql_user)){
      var d = parseInt(ss[2],10);
      if (!isNaN(y) && !isNaN(m) && !isNaN(d)){
          return new Date(d,m-1,y);
-     } else {
-         return new Date();
      }
  }
+</script>
  </script>
 <?php update(); ?>

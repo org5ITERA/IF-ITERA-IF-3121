@@ -44,6 +44,6 @@ function add_account(){
 		'username' => $username,
 		'password' => md5(A$password)
 	);
-	
+
 
 }

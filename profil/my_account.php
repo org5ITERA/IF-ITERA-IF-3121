@@ -15,6 +15,7 @@ else {
 <!DOCTYPE html>
 <head><title> Questions & Answer </title>
 	 <link rel="stylesheet" href="css/stylesAcc.css">
+	 <link rel='shortcut icon' type='image/png' href='img/logo.png'/>
 	 <link rel="stylesheet" type="text/css" href="../js/jeasyui/themes/default/easyui.css">
    <link rel="stylesheet" type="text/css" href="../js/jeasyui/themes/icon.css">
    <link rel="stylesheet" type="text/css" href="../js/jeasyui/demo.css">

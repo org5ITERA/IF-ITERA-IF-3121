@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 session_start();
 include("functions/functions.php");
@@ -13,7 +13,7 @@ else {
 <!DOCTYPE html>
 <head><title> Questions & Answer </title>
 	 <link rel="stylesheet" href="css/StyleHome.css">
-
+      <link rel= 'shortcut icon' type='images/png' href='img/logo.png'/> 
 </head>
 	<body>
 		<div class="kotakkecil">
@@ -23,22 +23,6 @@ else {
         <ul>
             <li><a href="profil/my_account.php">PROFIL</a></li>
             <li><a href="logout.php">KELUAR</a></li>
-=======
-<!DOCTYPE html>
-<head><title> Questions & Answer </title>
-	 <link rel="stylesheet" href="css/StyleHome.css">
-	 
-</head>   
-	<body>
-		<div class="kotakkecil">
-		Questions & Answers		
-        </div>
-        <div class="menu">
-        <ul>
-            <li><a href="Profilku.php">PROFIL</a></li>
-            <li><a href="MenuSetting.php">PENGATURAN</a></li>
-            <li><a href="login.php">KELUAR</a></li>
->>>>>>> master
         </ul>
         </div>
         <div class ="home">

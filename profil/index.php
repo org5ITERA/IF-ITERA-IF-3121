@@ -5,7 +5,7 @@ include("functions/functions.php");
 <!DOCTYPE html>
 <head><title> Questions & Answer </title>
 	 <link rel="stylesheet" href="css/styles.css">
-
+        <link rel='shortcut icon' type='image/png' href='img/logo.png'/>
 </head>
 	<body>
 		<div class="kotakkecil">

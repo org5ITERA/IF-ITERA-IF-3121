@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head><title> Reset Password </title>
 	 <link rel="stylesheet" href="css/stylereset.css">
-
+        <link rel='shortcut icon' type='image/png' href='img/logo.png'/>
 </head>
 	<body>
         <div class="kotakkecil">

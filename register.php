@@ -26,8 +26,6 @@ include("functions/functions.php");
 				var d = parseInt(ss[2],10);
 				if (!isNaN(y) && !isNaN(m) && !isNaN(d)){
 						return new Date(d,m-1,y);
-				} else {
-						return new Date();
 				}
 		}
 </script>

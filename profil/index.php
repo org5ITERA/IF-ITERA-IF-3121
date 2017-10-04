@@ -16,7 +16,7 @@ include("functions/functions.php");
         <h3>Masuk</h3>
         <fieldset>
             <form action="" method="post">
-                <input type="text" name="username" placeholder="Email">
+                <input type="text" name="username" placeholder="Username">
                 <input type="password" name="password" placeholder="Kata Sandi">
                 <input type="submit" name="login" value="login">
 						</form>

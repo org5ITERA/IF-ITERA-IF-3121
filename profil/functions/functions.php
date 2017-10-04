@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "root","","Tugas-Besar");
+$db = mysqli_connect("localhost", "root","1234567890","Tugas-Besar");
 
 function login(){
 
@@ -19,4 +19,8 @@ function login(){
 		}
 
 	}
+}
+
+function update(){
+	
 }

@@ -56,8 +56,8 @@ else {
       <ul id="sb">
 
 
+        <a href="my_account.php?home">Home</a> <br>
         <a href="my_account.php?question">Pertanyaanku</a> <br>
-        <a href="my_account.php?answer">Jawabanku</a> <br>
         <a href="my_account.php?setting">Pengaturan Akun </a><br>
 				<a href="my_account.php?password">Ganti Password</a> <br>
         <a href="logout.php">Logout</a>
@@ -73,8 +73,8 @@ else {
 			 ?>
 
 		<?php
-		if(!isset($_GET['question'])){
-			if(!isset($_GET['answer'])){
+		if(!isset($_GET['home'])){
+			if(!isset($_GET['question'])){
 				if(!isset($_GET['setting'])){
 					if(!isset($_GET['password'])){
 
@@ -87,11 +87,11 @@ else {
 		}
 		}
 
+		if(isset($_GET['home'])){
+		echo "<script> window.open('../main.php','_self') </script>";
+		}
 		if(isset($_GET['question'])){
 		include("question.php");
-		}
-		if(isset($_GET['answer'])){
-		include("answer.php");
 		}
 		if(isset($_GET['setting'])){
 		include("setting.php");

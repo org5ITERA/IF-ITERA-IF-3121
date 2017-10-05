@@ -80,6 +80,7 @@ div.menu ul li a.hoverover {
     color: #b0b0bc;
 }
 .pertanyaan_recent{
+    margin-top: -69.0%;
     margin-left: 750px;
     max-width: 500px;
     max-height: 830px;

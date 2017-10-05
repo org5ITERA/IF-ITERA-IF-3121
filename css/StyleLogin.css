@@ -16,11 +16,11 @@ body img{
     line-height: 50px; color: white; 
 }
 #login{
-    margin-top: -450px;
+    margin-top: -480px;
     max-width: 400px;
     background: #f9f9f9;
     box-shadow: 0 0 10px #aaa;
-    margin-left: 900px;
+    margin-left: 850px;
 }
 #login h3{
     text-align: center;

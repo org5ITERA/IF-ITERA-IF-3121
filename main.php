@@ -19,18 +19,22 @@ else {
 		<div class="kotakkecil">
 		Questions & Answers
         </div>
+
         <div class="menu">
         <ul>
             <li><a href="profil/my_account.php">PROFIL</a></li>
             <li><a href="logout.php">KELUAR</a></li>
         </ul>
         </div>
+
         <div class ="home">
         <h3>KIRIM PERTANYAAN</h3>
         <fieldset>
+            <form method="POST" action="">
             <input type="text" placeholder="Judul..." name="judul"></input>
             <textarea placeholder="Tulis Pertanyaan..." name="pert_txt"></textarea>
-            <button>KIRIM</button>
+            <input name="KIRIM" type="submit" value="KIRIM" />
+            </form>
         </fieldset>
         </div>
 
@@ -84,7 +88,9 @@ else {
                 <h4>Komentar Dilihat</h4>
             </fieldset>
         </div>
-
+        <?php
+        question();
+        ?>
 	</body>
 
 </html>

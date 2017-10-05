@@ -66,24 +66,34 @@ function register(){
 
 function question(){
 	if(isset($_POST['KIRIM'])){
-		echo "<script> alert('PERTANYAAN BERHASIL TERKIRIM') </script>";
+		
 		global $db;
-		$no = 0;
+		
+		$username = $_SESSION['username'];
+		$sql= "select * from user where username='$username'";
+		$run_sql = mysqli_query($db,$sql);
+		$info = mysqli_fetch_array($run_sql);
+		$id = $info['id'];
+
 		$judul = mysql_escape_string($_POST['judul']);
 		$pertanyaan = mysql_real_escape_string($_POST['pert_txt']);
-		$query = ("INSERT INTO question VALUES ('$no++','1','$pertanyaan','tes','$judul')");
-		$db->query($query);
+		$query = ("insert into question (id_user,judul,question,waktu) VALUES ('$id','$judul','$pertanyaan',NOW());");
+		$run = mysqli_query($db,$query);
+
+		echo "<script> alert('PERTANYAAN BERHASIL TERKIRIM') </script>";
 	}
 }
 
 function answer(){
-	if(isset($_POST['KIRIM'])){
-		echo "<script> alert('JAWABAN BERHASIL TERKIRIM') </script>";
+	if(isset($_POST['JAWAB'])){
 		global $db;
-		$no = 0;
-		$jawaban = mysql_real_escape_string($_POST['jawaban']);
-		$query = ("INSERT INTO answer VALUES ('$no++','id_question','id_user','$jawaban','waktu')");
-		$db->query($query);
+		
+		$username = $_SESSION['username'];
+		$sql= "select * from user where username='$username'";
+		$run_sql = mysqli_query($db,$sql);
+		$info = mysqli_fetch_array($run_sql);
+		$id = $info['id'];
+
 	}
 }
 

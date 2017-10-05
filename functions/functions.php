@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "root","","Tugas-Besar");
+$db = mysqli_connect("localhost", "root","","tubes");
 
 function login(){
 
@@ -62,11 +62,29 @@ function register(){
 			echo "<script> alert ('Anda berhasil terdaftar ')</script>";
 			echo "<script> window.open('login.php','_self') </script>";
 		}
-
-
-
 }
 
+function question(){
+	if(isset($_POST['KIRIM'])){
+		echo "<script> alert('PERTANYAAN BERHASIL TERKIRIM') </script>";
+		global $db;
+		$no = 0;
+		$judul = mysql_escape_string($_POST['judul']);
+		$pertanyaan = mysql_real_escape_string($_POST['pert_txt']);
+		$query = ("INSERT INTO question VALUES ('$no++','1','$pertanyaan','tes','$judul')");
+		$db->query($query);
+	}
+}
 
+function answer(){
+	if(isset($_POST['KIRIM'])){
+		echo "<script> alert('JAWABAN BERHASIL TERKIRIM') </script>";
+		global $db;
+		$no = 0;
+		$jawaban = mysql_real_escape_string($_POST['jawaban']);
+		$query = ("INSERT INTO answer VALUES ('$no++','id_question','id_user','$jawaban','waktu')");
+		$db->query($query);
+	}
+}
 
-	?>
+?>

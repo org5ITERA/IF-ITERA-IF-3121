@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
     margin: 0;
     padding: 0;
@@ -80,10 +80,9 @@ div.menu ul li a.hoverover {
     color: #b0b0bc;
 }
 .pertanyaan_recent{
-    margin-top: -66.7%;
     margin-left: 750px;
     max-width: 500px;
-    max-height: 823px;
+    max-height: 830px;
     background: #f9f9f9;
     box-shadow: 0 0 10px #aaa;
 }
@@ -281,14 +280,17 @@ input[type='text']{
     font-size: 20px;
 }
 input[type="submit"]{
-    width: 100%;
-    padding: 1.4em;
-    margin: 1.5em 0;
-    color: #888;
-    background-color:#00cdb1 ;
+background-color: #3b5998;
+    width: 15%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    margin-left: 85%;
     border:none;
     color:#eee;
     border-bottom: 4px solid transparent;
+    font-size: 15px;
+    cursor: pointer;
 }
 input[type="submit"]:hover{
     opacity: 0.8;
@@ -344,4 +346,3 @@ a {
 h4 {
     word-spacing: 200px;
 }
->>>>>>> master

@@ -1,5 +1,5 @@
 <?php
-$db = mysqli_connect("localhost", "root","","tubes");
+$db = mysqli_connect("localhost", "root","1234567890","Tugas-Besar");
 
 function login(){
 
@@ -66,17 +66,19 @@ function register(){
 
 function question(){
 	if(isset($_POST['KIRIM'])){
-		
+
 		global $db;
-		
+
 		$username = $_SESSION['username'];
 		$sql= "select * from user where username='$username'";
 		$run_sql = mysqli_query($db,$sql);
 		$info = mysqli_fetch_array($run_sql);
 		$id = $info['id'];
 
+
 		$judul = mysql_escape_string($_POST['judul']);
 		$pertanyaan = mysql_real_escape_string($_POST['pert_txt']);
+		echo "<script> alert('$judul') </script>";
 		$query = ("insert into question (id_user,judul,question,waktu) VALUES ('$id','$judul','$pertanyaan',NOW());");
 		$run = mysqli_query($db,$query);
 
@@ -87,7 +89,7 @@ function question(){
 function answer(){
 	if(isset($_POST['JAWAB'])){
 		global $db;
-		
+
 		$username = $_SESSION['username'];
 		$sql= "select * from user where username='$username'";
 		$run_sql = mysqli_query($db,$sql);

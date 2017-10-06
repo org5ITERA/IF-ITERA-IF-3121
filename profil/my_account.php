@@ -27,7 +27,7 @@ else {
 
     <div class="content_wrapper">
 			<div id="kotakkecil">
-			<a href="home.php">Questions & Answers</a>
+			<a href="../main.php">Questions & Answers</a>
 			</div>
 
     <div id="sidebar">

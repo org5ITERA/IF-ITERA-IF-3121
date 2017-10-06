@@ -13,7 +13,7 @@ else {
 <!DOCTYPE html>
 <head><title> Questions & Answer </title>
 	 <link rel="stylesheet" href="css/StyleHome.css">
-      <link rel= 'shortcut icon' type='images/png' href='img/logo.png'/> 
+      <link rel= 'shortcut icon' type='images/png' href='img/logo.png'/>
 </head>
 	<body>
 		<div class="kotakkecil">
@@ -35,6 +35,9 @@ else {
             <textarea placeholder="Tulis Pertanyaan..." name="pert_txt"></textarea>
             <input name="KIRIM" type="submit" value="KIRIM" />
             </form>
+            <?php
+            question();
+            ?>
         </fieldset>
         </div>
 
@@ -88,9 +91,7 @@ else {
                 <h4>Komentar Dilihat</h4>
             </fieldset>
         </div>
-        <?php
-        question();
-        ?>
+
 	</body>
 
 </html>

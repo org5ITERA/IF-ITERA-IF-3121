@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: pink;
+
+}
+body img{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+#kotakkecil{
+    background: grey;
+    font-size: 30px;margin: 0px;
+    padding: 15px;
+    border: solid 1px #eceff5;
+    line-height: 50px; color: white;
+}
+
+#kotakkecil a {
+text-decoration:none;
+color:white;
+padding:8px;
+margin:5px;
+font-size:22px;
+font-family:COMIC SANS MS;
+}
+
+
+#login{
+    margin-top: -450px;
+    max-width: 400px;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px #aaa;
+    margin-left: 900px;
+}
+#login h3{
+    text-align: center;
+    padding: 25px 10px;
+    background-color: #2b2f3e;
+    color: #b0b0bc;
+}
+fieldset{
+    margin: 0;
+    border: none;
+}
+form{
+    padding: 0;
+    margin: 0;
+    padding: 15px;
+}
+input[type='text'],
+input[type="password"]{
+    width: 90%;
+    padding: 1em;
+    margin-top: 1.2em;
+    color: #888;
+}
+input[type="submit"]{
+    width: 100%;
+    padding: 1.4em;
+    margin-bottom: 1em;
+    color: #888;
+    background-color:#00cdb1 ;
+    border:none;
+    color:#eee;
+    border-bottom: 4px solid transparent;
+}
+input[type="submit"]:hover{
+    opacity: 0.8;
+    border-color: #00adb1;
+}
+form p{
+    text-align: center;
+    color: #888;
+    width: 150px;
+    margin: 10px auto 0;
+    background: #f9f9f9;
+    position: relative;
+    bottom: 20px;
+}
+.border-p{
+    border-top: 1px solid #888;
+    margin: 10px 10px;
+}
+button{
+    background-color: #3b5998;
+    width: 100%;
+    padding: 1.4em;
+    margin-bottom: 1em;
+    color: #888; ;
+    border:none;
+    color:#eee;
+    border-bottom: 4px solid transparent;
+}
+button:hover{
+    opacity: 0.9;
+    border-color: #3b3998;
+}
+
+.content_wrapper {
+width:1000px;
+margin:auto;
+background:white;
+
+}
+
+#content_area {
+width:800px;
+float:left;
+background:#a9dcfc;
+}
+#sidebar {
+width:200px;
+background:#21bace;
+float:right;
+}
+
+#sidebar_title {
+background:white;
+color:black;
+font-size:22px;
+font-family:arial;
+padding:10px;
+text-align:center;
+}
+
+#sb {
+	text-align:left;
+}
+
+#sb li {list-style:none; margin:5px;}
+
+#sb a {color:#FFF; padding:8px; margin:5px; text-align:left; font-size:17px; text-decoration:none; font-family:Comic Sans Ms;}
+
+#sb a:hover {color:white; font-weight:bolder; text-decoration:underline;}
+
+#s img {border:2px solid white; padding:4px;}
+
+#footer {
+width:1000px;
+height:70px;
+background:#7095d1;
+clear:both;
+}
+#footer a {color:#FFF; padding:0px; margin:0px; text-align:left; font-size:17px; text-decoration:none; font-family:Comic Sans Ms;}
+
+#pertanyaan_recent{
+    margin-top: -66.7%;
+    margin-left: 750px;
+    max-width: 500px;
+    max-height: 823px;
+    background: #f9f9f9;
+    box-shadow: 0 0 10px #aaa;
+}
+#pertanyaan_recent h3{
+    text-align: center;
+    padding: 15px 10px;
+    background-color: #2b2f3e;
+    color: #b0b0bc;
+}
+fieldset{
+    margin: 0;
+    border: none;
+}

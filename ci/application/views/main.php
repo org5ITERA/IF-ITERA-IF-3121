@@ -1,6 +1,7 @@
 
 <?php
 session_start();
+include("functions/functions.php");
 
 if (!isset($_SESSION['username'])) {
   echo "<script>window.open('index.php','_self')</script>";
@@ -11,8 +12,8 @@ else {
  ?>
 <!DOCTYPE html>
 <head><title> Questions & Answer </title>
-	 <link rel="stylesheet" type="text/css" href="public/css/StyleHome.css">
-      <link rel= 'shortcut icon' type='/public/images/png' href='/public/img/logo.png'/>
+	 <link rel="stylesheet" href="css/StyleHome.css">
+      <link rel= 'shortcut icon' type='images/png' href='img/logo.png'/>
 </head>
 	<body>
 		<div class="kotakkecil">
@@ -35,7 +36,7 @@ else {
             <input name="KIRIM" type="submit" value="KIRIM" />
             </form>
             <?php
-            $this->functions->question();
+            question();
             ?>
         </fieldset>
         </div>
